@@ -18,6 +18,7 @@
     "typescript": "^5.5.2"
   },
   "dependencies": {
+    "@huggingface/inference": "^2.7.0",
     "@microsoft/microsoft-graph-client": "^3.0.7",
     "body-parser": "^1.20.2",
     "bullmq": "^5.8.2",
