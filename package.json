@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "ts-node src/app.ts",
-  "build": "tsc"
+    "start": "ts-node src/app.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
