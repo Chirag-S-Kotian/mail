@@ -26,7 +26,9 @@ export async function sendGmail(email: string, subject: string, message: string)
   const accessToken = oAuth2Client.credentials.access_token;
 
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     auth: {
       type: 'OAuth2',
       user: process.env.GMAIL_USER,
